@@ -37,6 +37,7 @@ function loadSong(songTitles, songArtist, songCover) {
     audio.src = `music/${songTitles}.mp3`
     cover.src = `img/${songTitles}.jpg`
     artist.style.margin = "0.5% 0.5% 4% 0.5%"
+    artist.style.marginRight = "auto";
 
     fac.getColorAsync(songCover)
         .then(color => {
@@ -62,6 +63,7 @@ function playSong() {
     playBtn.querySelector('i.fas').classList.remove('fa-play')
     playBtn.querySelector('i.fas').classList.add('fa-pause')
     artist.style.margin = "0.5%"
+    artist.style.marginRight = "auto";
     audio.play()
 }
 
@@ -70,6 +72,7 @@ function pauseSong() {
     playBtn.querySelector('i.fas').classList.add('fa-play')
     playBtn.querySelector('i.fas').classList.remove('fa-pause')
     artist.style.margin = "0.5% 0.5% 4% 0.5%"
+    artist.style.marginRight = "auto";
     audio.pause()
 }
 
