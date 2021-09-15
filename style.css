@@ -41,7 +41,7 @@ body {
 }
 
 .music-info {
-    background-color: #000;
+    background-color: #fff;
     border-radius: 7px;
     width: 100%;
     display: flex;
@@ -53,7 +53,7 @@ body {
 .music-info p, h4 {
     padding: 0 3%;
     margin: 0.5%;
-    color: white;
+    color: #000;
     margin-right: auto;
 }
 
@@ -74,15 +74,16 @@ body {
 }
 
 .action-btn {
-    background-color: #000000;
-    border-radius: 100%;
-    border: #000 12px solid;
+    background-color: #fff;
+    /* border-radius: 100%; */
+    border: #FFF;
     margin: 0 10%;
     font-size: 24px;
-    color: rgb(211, 211, 211);
+    color: #000;
     position: relative;
     top: -8px;
     cursor: pointer;
+    outline: none;
 }
 
 .action-btn-big {
@@ -91,12 +92,12 @@ body {
 }
 
 .action-btn:hover {
-    background-color: rgb(68, 68, 68);
-    border: rgb(68, 68, 68) 12px solid;
+    /* background-color: rgb(68, 68, 68); */
+    /* border: rgb(68, 68, 68) 12px solid; */
 }
 
 .action-btn:focus {
-    outline: none;
+    /* outline: none; */
 }
 
 .container.play .progress-container {
