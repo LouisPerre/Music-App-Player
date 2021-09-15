@@ -3,25 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/fast-average-color/dist/index.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.4.1/tinycolor.min.js"></script>
+
 </head>
 <body>
-    <div class="contain">
-        <div class="container">
-            <div class="music-player">
-                <div class="cover">
-                    <img src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/kygo.png" alt="">   
-                </div>
-                <div class="titre">
-                    <h3>Kygo</h3>
-                    <h1>Stole the show</h1>
-                </div>
-                <div class="lecteur">
-                    <audio style="width: 100%;" class="fc-media">
-                        <source src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/kygo-stole-the-show.mp3" type="audio/mp3"/>
-                    </audio>
-                </div>
+    <div class="container">
+        <div class="music-img">
+            <img id="cover" src="" alt="Music Cover">
+            <!-- <img id="test" src="img/Astronaut in The Ocean.jpg"> -->
+        </div>
+        <div class="music-info">
+            <h4 id="title">Astronaut in The Ocean</h4>
+            <p id="artist">Masked Wolf</p>
+            <div class="progress-container">
+                <div class="progress"></div>
             </div>
         </div>
+        <audio src="" id="audio"></audio>
+        <div class="music-control">
+            <button id="prev" class="action-btn">
+                <i class="fas fa-backward"></i>
+            </button>
+            <button id="play" class="action-btn action-btn-big">
+                <i class="fas fa-play"></i>
+            </button>
+            <button id="next" class="action-btn">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
     </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
