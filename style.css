@@ -48,7 +48,6 @@ body {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    /* padding: 0 2%; */
 }
 
 .music-info p, h4 {
