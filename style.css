@@ -27,9 +27,6 @@ body {
 .music-img {
     width: 300px;
     height: 300px;
-    /* max-width: 400px; */
-    /* max-height: 600px; */
-    /* border-radius: 7px; */
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     overflow: hidden;
